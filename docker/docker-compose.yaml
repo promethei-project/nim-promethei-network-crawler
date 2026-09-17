@@ -4,8 +4,8 @@ services:
       context: ..
       dockerfile: ./docker/crawler.Dockerfile
     environment:
-      - ARCHIVIST_NETWORK=testnet
-      - ARCHIVIST_VERSION=latest
+      - PROMETHEI_NETWORK=testnet
+      - PROMETHEI_VERSION=latest
       - CRAWLER_LOGLEVEL=TRACE
       # - CRAWLER_PUBLICIP= Set to override CURL to ip.archivist.storage
       - CRAWLER_METRICSADDRESS=0.0.0.0

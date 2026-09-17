@@ -29,15 +29,15 @@ proc test(name: string, srcDir = "tests/", params = "", lang = "c") =
   buildBinary name, srcDir, params
   exec "build/" & name
 
-task archivistcrawler, "build archivistcrawler binary":
-  buildBinary "archivistcrawler",
+task prometheicrawler, "build prometheicrawler binary":
+  buildBinary "prometheicrawler",
     params = "-d:chronicles_runtime_filtering -d:chronicles_log_level=TRACE"
 
-task testArchivistcrawler, "Build & run Archivist Crawler tests":
-  test "testArchivistCrawler"
+task testPrometheicrawler, "Build & run Promethei Crawler tests":
+  test "testPrometheiCrawler"
 
-task build, "build archivist crawler binary":
-  archivistCrawlerTask()
+task build, "build promethei crawler binary":
+  prometheiCrawlerTask()
 
 task test, "Run tests":
-  testArchivistCrawlerTask()
+  testPrometheiCrawlerTask()

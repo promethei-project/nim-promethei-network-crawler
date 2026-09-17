@@ -60,28 +60,28 @@
 	url = https://github.com/status-im/nim-websock.git
 [submodule "vendor/nim-contract-abi"]
 	path = vendor/nim-contract-abi
-	url = https://github.com/durability-labs/nim-contract-abi.git
+	url = https://github.com/promethei-project/nim-contract-abi.git
 [submodule "vendor/nim-json-rpc"]
 	path = vendor/nim-json-rpc
 	url = https://github.com/status-im/nim-json-rpc.git
 [submodule "vendor/nim-ethers"]
 	path = vendor/nim-ethers
-	url = https://github.com/durability-labs/nim-ethers.git
+	url = https://github.com/promethei-project/nim-ethers.git
 [submodule "vendor/lrucache.nim"]
 	path = vendor/lrucache.nim
 	url = https://github.com/status-im/lrucache.nim
 [submodule "vendor/nim-blscurve"]
 	path = vendor/nim-blscurve
 	url = https://github.com/status-im/nim-blscurve.git
-[submodule "vendor/archivist-dht"]
-	path = vendor/archivist-dht
-	url = https://github.com/durability-labs/archivist-dht.git
+[submodule "vendor/nim-promethei-dht"]
+	path = vendor/nim-promethei-dht
+	url = https://github.com/promethei-project/nim-promethei-dht.git
 [submodule "vendor/nim-eth"]
 	path = vendor/nim-eth
 	url = https://github.com/status-im/nim-eth
-[submodule "vendor/archivist-contracts"]
-	path = vendor/archivist-contracts
-	url = https://github.com/durability-labs/archivist-contracts.git
+[submodule "vendor/promethei-contracts"]
+	path = vendor/promethei-contracts
+	url = https://github.com/promethei-project/promethei-contracts.git
 [submodule "vendor/nim-protobuf-serialization"]
 	path = vendor/nim-protobuf-serialization
 	url = https://github.com/status-im/nim-protobuf-serialization
@@ -93,7 +93,7 @@
 	url = https://github.com/status-im/nim-testutils
 [submodule "vendor/nim-serde"]
 	path = vendor/nim-serde
-	url = https://github.com/durability-labs/nim-serde.git
+	url = https://github.com/promethei-project/nim-serde.git
 [submodule "vendor/nph"]
 	path = vendor/nph
 	url = https://github.com/arnetheduck/nph.git
@@ -102,7 +102,7 @@
 	url = https://github.com/status-im/nim-faststreams.git
 [submodule "vendor/nim-poseidon2"]
 	path = vendor/nim-poseidon2
-	url = https://github.com/durability-labs/nim-poseidon2.git
+	url = https://github.com/promethei-project/nim-poseidon2.git
 [submodule "vendor/constantine"]
 	path = vendor/constantine
 	url = https://github.com/mratsim/constantine.git
@@ -123,7 +123,7 @@
 	url = https://github.com/arnetheduck/nim-sqlite3-abi.git
 [submodule "vendor/nim-leveldbstatic"]
 	path = vendor/nim-leveldbstatic
-	url = https://github.com/durability-labs/nim-leveldbstatic.git
+	url = https://github.com/promethei-project/nim-leveldbstatic.git
 [submodule "vendor/nim-docopt"]
 	path = vendor/nim-docopt
 	url = https://github.com/docopt/docopt.nim.git

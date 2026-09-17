@@ -1,8 +1,8 @@
 # Package
 
 version = "0.0.1"
-author = "Archivist core contributors"
-description = "Tests for crawler for Archivist networks"
+author = "Promethei core contributors"
+description = "Tests for crawler for Promethei networks"
 license = "MIT"
 installFiles = @["build.nims"]
 
@@ -11,4 +11,4 @@ requires "asynctest >= 0.5.2 & < 0.6.0"
 requires "unittest2 <= 0.3.0"
 
 task test, "Run tests":
-  exec "nim c -r testArchivistCrawler.nim"
+  exec "nim c -r testPrometheiCrawler.nim"

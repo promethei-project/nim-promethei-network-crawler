@@ -96,7 +96,7 @@ else # "variables.mk" was included. Business as usual until the end of this file
 # Builds the crawler binary
 all: | build deps
 	echo -e $(BUILD_MSG) "build/$@" && \
-		$(ENV_SCRIPT) nim archivistcrawler $(NIM_PARAMS) build.nims
+		$(ENV_SCRIPT) nim prometheicrawler $(NIM_PARAMS) build.nims
 
 # must be included after the default target
 -include $(BUILD_SYSTEM_DIR)/makefiles/targets.mk
@@ -182,7 +182,7 @@ nph/%: build-nph
 
 format:
 	$(NPH) *.nim
-	$(NPH) archivistcrawler/
+	$(NPH) prometheicrawler/
 	$(NPH) tests/
 
 clean-nph:
